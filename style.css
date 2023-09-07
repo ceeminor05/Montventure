@@ -3,6 +3,11 @@
     padding: 0;
     font-family: 'Raleway', sans-serif;
 }
+body,
+html {
+    height: 100%;
+}
+
 .main{
     background-image: linear-gradient(#1a1919, #a3121213) ,url(./Resources/back.jpeg);
     background-position: center ;
@@ -80,7 +85,7 @@ nav ul li :hover {
             /* Apply animation to this element */
             -moz-animation: covid 15s linear infinite;
             -webkit-animation: covid 15s linear infinite;
-            animation: covid 20s linear infinite;
+            animation: covid 23s linear infinite;
         }
     
         /* Move it (define the animation) */
